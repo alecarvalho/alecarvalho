@@ -29,7 +29,6 @@ class Habilidades(Resource):
             mensagem = 'Erro desconhecido. Procure o administrador da API'
             response = {'status': 'erro', 'mensagem': mensagem}
         return response
-        return lista_habilidades
 
     def put(self, id):
         dados = json.loads(request.data)

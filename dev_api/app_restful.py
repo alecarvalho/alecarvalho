@@ -69,6 +69,7 @@ class ListaDesenvolvedores(Resource):
 
 api.add_resource(Desenvolvedor, '/dev/<int:id>/')
 api.add_resource(ListaDesenvolvedores, '/dev/')
+api.add_resource(Habilidades, '/habilidades/<int:id>/')
 api.add_resource(ListaHabilidades, '/habilidades/')
 
 
